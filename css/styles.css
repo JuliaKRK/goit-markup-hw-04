@@ -108,6 +108,12 @@ button {
   color: var(--primary-white-color);
 }
 
+.title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
 /* Header */
 
 .style-heder-container {
@@ -375,14 +381,14 @@ button {
 }
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid #404bbf;
+  border-color: #404bbf;
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+  fill: #404bbf;
 }
 .customers-icon {
   fill: #8e8f99;
-}
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: #404bbf;
 }
 
 /* Footer */
