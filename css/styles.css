@@ -199,7 +199,7 @@ button {
 .contact-phone-number:focus {
   color: #404bbf;
 }
-/* .bottom-line::after {
+.bottom-line::after {
   display: block;
   content: '';
   position: absolute;
@@ -209,7 +209,7 @@ button {
   top: 48px;
   background: #404bbf;
   border-radius: 2px;
-} */
+}
 /* Banner Hero */
 
 .hero {
